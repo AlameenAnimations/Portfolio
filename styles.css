@@ -1,0 +1,54 @@
+.my-logo {
+  border-radius: 30%;
+}
+body {
+  background-image: url(./Assets/840843081452.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.nav-link {
+  color: rgb(59, 164, 206);
+  margin-right: 20px;
+  font: 1em sans-serif;
+}
+.mint {
+  -webkit-text-fill-color: rgb(59, 164, 206);
+}
+.text-body-emphasis {
+  -webkit-text-fill-color: white;
+}
+.chat p {
+  color: white;
+}
+.chat li {
+  -webkit-text-fill-color: white;
+}
+.btn-primary-custom {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px; /* Rounded edges */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary-custom:hover {
+  background-color: #0056b3;
+  border-color: #004080;
+  color: #ffffff; /* Slight text color change */
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+  padding: 10px 20px;
+  border-radius: 50px; /* Matching rounded edges */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #ffffff;
+}
